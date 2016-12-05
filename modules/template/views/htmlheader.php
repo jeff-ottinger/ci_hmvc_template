@@ -14,6 +14,7 @@ if (isset($page["meta"])) {
 }
 $this->assets->printCSS();
 $this->assets->printJS();
+$this->assets->printCSSInline();
 ?>
 </head>
 <body>
